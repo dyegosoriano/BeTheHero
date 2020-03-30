@@ -1,4 +1,6 @@
-<img align="center" src="./readme-img/logo-be-the-hero.png" width="250px" /><br>
+<div align="center">
+  <img src="./readme-img/logo-be-the-hero.png" width="250px" /><br>
+</div>
 
 # Be The Hero
 
@@ -49,7 +51,7 @@ Assim que o processo terminar, automaticamente será aberta no seu navegador a p
 # Projeto
 
 
-![](https://github.com/dyegosoriano/Be-the-Hero/blob/readme-img/Be-the-Hero.png)
+![](https://github.com/dyegosoriano/Be-the-Hero/blob/master/readme-img/Be-the-Hero.png)
 
 
 # Back-End
