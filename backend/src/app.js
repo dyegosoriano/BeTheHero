@@ -1,13 +1,30 @@
-const express = require('express')
-const cors = require('cors')
-const { errors } = require('celebrate')
-const routes = require('./routes')
+import express from 'express'
+import routes from './routes'
+import cors from 'cors'
+import {errors} from 'celebrate'
 
-const app = express()
+class App {
+  constructor () {
+    this.server = express()
 
-app.use(cors())
-app.use(express.json())
-app.use(routes)
-app.use(errors())
+    // this.database()
+    this.middlewares()
+    this.routes()
+  }
 
-module.exports = app
+  // database () {
+    // Config database
+  // }
+
+  middlewares () {
+    this.server.use(cors())
+    this.server.use(express.json())
+    this.server.use(errors())
+  }
+
+  routes () {
+    this.server.use(routes)
+  }
+}
+
+export default new App().server
