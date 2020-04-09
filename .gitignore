@@ -7,3 +7,4 @@ mobile/yarn.lock
 
 .DS_Store
 .vscode/
+backend/yarn.lock
