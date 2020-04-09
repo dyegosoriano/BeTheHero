@@ -8,7 +8,7 @@ A Semana OmniStack é um workshop online produzido pela Rocketseat. Esta é a ve
 
 Para clonar o repositório, execute o seguinte comando no terminal:
 
-```git clone https://github.com/dyegosoriano/be-the-hero.git```
+```git clone https://github.com/dyegosoriano/BeTheHero.git```
 
 # Instalação
 
@@ -72,3 +72,7 @@ Com isso, a página da aplicação Be The Hero será aberta. Nela, uma ong poder
 # Mobile
 
 Desenvolvido com o framework React Native e com o Expo.
+
+# Licença
+
+Esse projeto está sob a licença MIT.
